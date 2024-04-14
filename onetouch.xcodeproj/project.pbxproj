@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D950A1A2BCC1639000D2606 /* onetouchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D950A192BCC1639000D2606 /* onetouchApp.swift */; };
+		4D950A1C2BCC1639000D2606 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D950A1B2BCC1639000D2606 /* ContentView.swift */; };
+		4D950A1E2BCC163B000D2606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D950A1D2BCC163B000D2606 /* Assets.xcassets */; };
+		4D950A222BCC163B000D2606 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D950A212BCC163B000D2606 /* Preview Assets.xcassets */; };
+		4D950A2C2BCC163C000D2606 /* onetouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D950A2B2BCC163C000D2606 /* onetouchTests.swift */; };
+		4D950A362BCC163C000D2606 /* onetouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D950A352BCC163C000D2606 /* onetouchUITests.swift */; };
+		4D950A382BCC163C000D2606 /* onetouchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D950A372BCC163C000D2606 /* onetouchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D950A282BCC163C000D2606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D950A0E2BCC1639000D2606 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D950A152BCC1639000D2606;
+			remoteInfo = onetouch;
+		};
+		4D950A322BCC163C000D2606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D950A0E2BCC1639000D2606 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D950A152BCC1639000D2606;
+			remoteInfo = onetouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D950A162BCC1639000D2606 /* onetouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onetouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D950A192BCC1639000D2606 /* onetouchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onetouchApp.swift; sourceTree = "<group>"; };
+		4D950A1B2BCC1639000D2606 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D950A1D2BCC163B000D2606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D950A1F2BCC163B000D2606 /* onetouch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = onetouch.entitlements; sourceTree = "<group>"; };
+		4D950A212BCC163B000D2606 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D950A272BCC163C000D2606 /* onetouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onetouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D950A2B2BCC163C000D2606 /* onetouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onetouchTests.swift; sourceTree = "<group>"; };
+		4D950A312BCC163C000D2606 /* onetouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onetouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D950A352BCC163C000D2606 /* onetouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onetouchUITests.swift; sourceTree = "<group>"; };
+		4D950A372BCC163C000D2606 /* onetouchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onetouchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D950A132BCC1639000D2606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D950A242BCC163C000D2606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D950A2E2BCC163C000D2606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D950A0D2BCC1639000D2606 = {
+			isa = PBXGroup;
+			children = (
+				4D950A182BCC1639000D2606 /* onetouch */,
+				4D950A2A2BCC163C000D2606 /* onetouchTests */,
+				4D950A342BCC163C000D2606 /* onetouchUITests */,
+				4D950A172BCC1639000D2606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D950A172BCC1639000D2606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D950A162BCC1639000D2606 /* onetouch.app */,
+				4D950A272BCC163C000D2606 /* onetouchTests.xctest */,
+				4D950A312BCC163C000D2606 /* onetouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D950A182BCC1639000D2606 /* onetouch */ = {
+			isa = PBXGroup;
+			children = (
+				4D950A192BCC1639000D2606 /* onetouchApp.swift */,
+				4D950A1B2BCC1639000D2606 /* ContentView.swift */,
+				4D950A1D2BCC163B000D2606 /* Assets.xcassets */,
+				4D950A1F2BCC163B000D2606 /* onetouch.entitlements */,
+				4D950A202BCC163B000D2606 /* Preview Content */,
+			);
+			path = onetouch;
+			sourceTree = "<group>";
+		};
+		4D950A202BCC163B000D2606 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D950A212BCC163B000D2606 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D950A2A2BCC163C000D2606 /* onetouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D950A2B2BCC163C000D2606 /* onetouchTests.swift */,
+			);
+			path = onetouchTests;
+			sourceTree = "<group>";
+		};
+		4D950A342BCC163C000D2606 /* onetouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D950A352BCC163C000D2606 /* onetouchUITests.swift */,
+				4D950A372BCC163C000D2606 /* onetouchUITestsLaunchTests.swift */,
+			);
+			path = onetouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D950A152BCC1639000D2606 /* onetouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D950A3B2BCC163C000D2606 /* Build configuration list for PBXNativeTarget "onetouch" */;
+			buildPhases = (
+				4D950A122BCC1639000D2606 /* Sources */,
+				4D950A132BCC1639000D2606 /* Frameworks */,
+				4D950A142BCC1639000D2606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onetouch;
+			productName = onetouch;
+			productReference = 4D950A162BCC1639000D2606 /* onetouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D950A262BCC163C000D2606 /* onetouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D950A3E2BCC163C000D2606 /* Build configuration list for PBXNativeTarget "onetouchTests" */;
+			buildPhases = (
+				4D950A232BCC163C000D2606 /* Sources */,
+				4D950A242BCC163C000D2606 /* Frameworks */,
+				4D950A252BCC163C000D2606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D950A292BCC163C000D2606 /* PBXTargetDependency */,
+			);
+			name = onetouchTests;
+			productName = onetouchTests;
+			productReference = 4D950A272BCC163C000D2606 /* onetouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D950A302BCC163C000D2606 /* onetouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D950A412BCC163C000D2606 /* Build configuration list for PBXNativeTarget "onetouchUITests" */;
+			buildPhases = (
+				4D950A2D2BCC163C000D2606 /* Sources */,
+				4D950A2E2BCC163C000D2606 /* Frameworks */,
+				4D950A2F2BCC163C000D2606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D950A332BCC163C000D2606 /* PBXTargetDependency */,
+			);
+			name = onetouchUITests;
+			productName = onetouchUITests;
+			productReference = 4D950A312BCC163C000D2606 /* onetouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D950A0E2BCC1639000D2606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4D950A152BCC1639000D2606 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					4D950A262BCC163C000D2606 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4D950A152BCC1639000D2606;
+					};
+					4D950A302BCC163C000D2606 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4D950A152BCC1639000D2606;
+					};
+				};
+			};
+			buildConfigurationList = 4D950A112BCC1639000D2606 /* Build configuration list for PBXProject "onetouch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D950A0D2BCC1639000D2606;
+			productRefGroup = 4D950A172BCC1639000D2606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D950A152BCC1639000D2606 /* onetouch */,
+				4D950A262BCC163C000D2606 /* onetouchTests */,
+				4D950A302BCC163C000D2606 /* onetouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D950A142BCC1639000D2606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D950A222BCC163B000D2606 /* Preview Assets.xcassets in Resources */,
+				4D950A1E2BCC163B000D2606 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D950A252BCC163C000D2606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D950A2F2BCC163C000D2606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D950A122BCC1639000D2606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D950A1C2BCC1639000D2606 /* ContentView.swift in Sources */,
+				4D950A1A2BCC1639000D2606 /* onetouchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D950A232BCC163C000D2606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D950A2C2BCC163C000D2606 /* onetouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D950A2D2BCC163C000D2606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D950A382BCC163C000D2606 /* onetouchUITestsLaunchTests.swift in Sources */,
+				4D950A362BCC163C000D2606 /* onetouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D950A292BCC163C000D2606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D950A152BCC1639000D2606 /* onetouch */;
+			targetProxy = 4D950A282BCC163C000D2606 /* PBXContainerItemProxy */;
+		};
+		4D950A332BCC163C000D2606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D950A152BCC1639000D2606 /* onetouch */;
+			targetProxy = 4D950A322BCC163C000D2606 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D950A392BCC163C000D2606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D950A3A2BCC163C000D2606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4D950A3C2BCC163C000D2606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = onetouch/onetouch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"onetouch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.onetouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D950A3D2BCC163C000D2606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = onetouch/onetouch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"onetouch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.onetouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D950A3F2BCC163C000D2606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.onetouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onetouch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/onetouch";
+			};
+			name = Debug;
+		};
+		4D950A402BCC163C000D2606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.onetouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onetouch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/onetouch";
+			};
+			name = Release;
+		};
+		4D950A422BCC163C000D2606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.onetouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onetouch;
+			};
+			name = Debug;
+		};
+		4D950A432BCC163C000D2606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.onetouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onetouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D950A112BCC1639000D2606 /* Build configuration list for PBXProject "onetouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D950A392BCC163C000D2606 /* Debug */,
+				4D950A3A2BCC163C000D2606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D950A3B2BCC163C000D2606 /* Build configuration list for PBXNativeTarget "onetouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D950A3C2BCC163C000D2606 /* Debug */,
+				4D950A3D2BCC163C000D2606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D950A3E2BCC163C000D2606 /* Build configuration list for PBXNativeTarget "onetouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D950A3F2BCC163C000D2606 /* Debug */,
+				4D950A402BCC163C000D2606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D950A412BCC163C000D2606 /* Build configuration list for PBXNativeTarget "onetouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D950A422BCC163C000D2606 /* Debug */,
+				4D950A432BCC163C000D2606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D950A0E2BCC1639000D2606 /* Project object */;
+}
